@@ -1,0 +1,49 @@
+title = "Yuduo's Homepage"
+baseURL = "https://yuduow.github.io"
+tags = ["portfolio"]
+features = ["portfolio"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "yuduow"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+# This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "Deep Learning Software Engineer"
+    author = "Yuduo Wu"
+    logoBig = "/images/name.png"
+    logoSmall = "/images/name.small.png"
+    favicon = "https://news.ycombinator.com/favicon.ico"
+    opengraphImage = "/images/name.small.png"
+    twitter = "yuduo_wu"
+    linkedin = "yuduowu"
+    github = "1duo"
+    email = "me@yuduowu.com"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = false
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "Resume"
+    url  = "/resume.pdf"
+    weight = 1
+[[menu.main]]
+    name = "LinkedIn"
+    url  = "https://www.linkedin.com/in/yuduowu/"
+    weight = 2
+[[menu.main]]
+    name = "Scholar"
+    url  = "https://scholar.google.com/citations?user=fihuycMAAAAJ&hl=en&authuser=1"
+    weight = 3
+[[menu.main]]
+    name = "GitHub"
+    url  = "https://github.com/1duo"
+    weight = 4
